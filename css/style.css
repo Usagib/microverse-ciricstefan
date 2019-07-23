@@ -1,8 +1,14 @@
 header {
+  width: 100%;
   position: fixed;
-  display: flex;
-  justify-content: center;
   top: 0;
+  display: inline-flex;
+}
+
+#nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
 }
 
 section {
@@ -12,7 +18,7 @@ section {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
   body {
     background-color: black;
   }
