@@ -1,8 +1,19 @@
 header {
   position: fixed;
+  display: flex;
+  justify-content: center;
   top: 0;
 }
 
 section {
   margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: black;
+  }
 }
